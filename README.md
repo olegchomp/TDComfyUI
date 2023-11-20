@@ -17,8 +17,7 @@ TouchDesigner interface for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 2. Create workflow
 3. Save workflow with "Save (API Format)"
 5. Drop/Load created file in TouchDesigner project (TextDAT). Connect DAT to TDComfyUI input (InDAT)
-7. Run 'Load Wokflow" on Settings page.
-8. Set parameters on Workflow page and run "Generate" on Settings page.
+6. Set parameters on Workflow page and run "Generate" on Settings page.
 
 ## Image send/recieve:
 * **Send to ComfyUI** - "Load Image (Base64)" node should be used instead of default load image. In TouchDesigner set TOP operator in "ETN_LoadImageBase64 image" field on Workflow page.

@@ -6,7 +6,7 @@ TouchDesigner interface for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 ![Screenshot_1](https://github.com/olegchomp/TDComfyUI/assets/11017531/fba8e8f2-42fb-486b-8cd4-839968f97601)
 
 ## Tutorial
-* [How to connect everything to Stable Diffusion](https://github.com/ltdrdata/ComfyUI-Manager#installation](https://youtu.be/62eARh_gRhE?si=gQmFEXY3P42woVya))
+* [How to connect everything to Stable Diffusion](https://youtu.be/62eARh_gRhE?si=gQmFEXY3P42woVya)
 ## Installation
 1. Install [ComfyUI](https://github.com/ltdrdata/ComfyUI-Manager#installation)
 2. Install [ComfyUI Nodes for External Tooling](https://github.com/Acly/comfyui-tooling-nodes)

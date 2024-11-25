@@ -24,5 +24,11 @@ TouchDesigner interface for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 ## Image send/recieve:
 * **Send to ComfyUI** - "Load Image (Base64)" node should be used instead of default load image. In TouchDesigner set TOP operator in "ETN_LoadImageBase64 image" field on Workflow page.
 * **Send to TouchDesigner** - "Send Image (WebSocket)" node should be used instead of preview, save image and etc. nodes.
-  
+
 Load [TouchDesigner_img2img.json](https://github.com/olegchomp/TDComfyUI/blob/main/TouchDesigner_img2img.json) in ComfyUI and TouchDesigner for Wokflow example.
+
+## Callbacks:
+* **onConnected** executed when component connectes to ComfyUI API
+* **onDisconnected** executed when component disconnected from ComfyUI API
+* **onGenerated** executed on ComfyUI response. Result returns status of execution.
+* **onParameterCreated** executed while workflow converts to parameters, useful for auto-filling parameters.
